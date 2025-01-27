@@ -85,3 +85,57 @@ BigDataChronicles/
 Here’s an example of how the application’s output looks:
 
 ![Application Output](./output.png)
+
+## **Setup Instructions**
+
+1. **Clone the Repository**  
+   Clone the project repository using the following commands:
+
+   ```bash
+   git clone <repository-url>
+   cd BigDataChronicles
+
+   ```
+
+2. **Create a Virtual Environment**
+
+   - For Linux/Mac:
+     ```bash
+     python3 -m venv env
+     source env/bin/activate
+     ```
+   - For Windows:
+     ```bash
+     python3 -m venv env
+     env\Scripts\activate
+     ```
+
+3. **Install Dependencies**
+
+   - Run the following command to install the required Python packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. **Set Up OpenAI API Key**
+
+   - Create a `.env` file in the root directory with the following content:
+     ```plaintext
+     OPENAI_API_KEY=your_openai_api_key_here
+     ```
+   - Ensure `.env` is included in `.gitignore` to prevent exposing your API key.
+
+5. **Prepare the GAIA Dataset**
+
+   - Run the following command to prepare the dataset:
+     ```bash
+     python3 prepare_dataset.py
+     ```
+   - This will generate the `metadata.jsonl` file required by the application.
+
+6. **Run the Application**
+   - Start the Streamlit app using this command:
+     ```bash
+     streamlit run app.py
+     ```
+   - Open the displayed local URL in your browser to interact with the application.
