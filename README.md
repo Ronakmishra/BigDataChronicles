@@ -42,9 +42,19 @@ This project involves building a **Streamlit-based web application** for the Mod
 ### **Submission Requirements**
 
 1. **GitHub Repository**:
-   - Includes diagrams (`req-1.png`, `req-2.png`).
+
+   - ## **Requirements Screenshots**
+
+   ### Requirement 1
+
+   ![Requirement 1](req-1.png)
+
+   ### Requirement 2
+
+   ![Requirement 2](req-2.png)
+
    - Contains a README file describing project details.
-   - Includes the working application (soon :: link deployed on Streamlit Cloud)).
+   - Includes the working application (soon :: link deployed on Streamlit Cloud).
 
 ---
 
@@ -71,4 +81,5 @@ BigDataChronicles/
 Here’s an example of how the application’s output looks:
 
 ![Application Output](output.png)
+
 ```
