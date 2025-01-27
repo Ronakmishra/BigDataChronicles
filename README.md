@@ -116,6 +116,11 @@ Here’s an example of how the application’s output looks:
      ```bash
      pip install -r requirements.txt
      ```
+   - If requirements.txt is missing or incomplete, manually install the following dependencies:
+
+   ```bash
+   pip install streamlit openai pandas jsonlines matplotlib
+   ```
 
 4. **Set Up OpenAI API Key**
 
