@@ -85,6 +85,7 @@ BigDataChronicles/
 Here’s an example of how the application’s output looks:
 
 ![Application Output](./output.png)
+![Application Output](./output-2.png)
 
 ## **Setup Instructions**
 
