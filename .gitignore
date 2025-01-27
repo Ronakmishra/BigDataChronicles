@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+env/
+venv/
+clean_env/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Python environment files
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS files
+.DS_Store
+
+# IDE settings (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Cache files
+.cache/
+*.bak
+
+# Streamlit-specific cache
+.streamlit/
+
+# Data files (optional, if you're generating local data files)
+metadata.jsonl
+feedback.jsonl
+
+# System files
+Thumbs.db
+
+# Exclude environment files
+.env
+
+minimal_test.py
